@@ -1,0 +1,71 @@
+* {
+    /*border: dotted 1px gray;*/
+    margin:10px;
+    align-self: center;
+}
+
+body {
+    margin: 0;
+    padding: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 12% 31% 11% 40%;
+}
+
+h1 {
+    grid-column: 1/5;
+    font-size: 24px;
+}
+
+.eten {
+    display: flex;
+    grid-column: 4/5;
+}
+
+.textinputs {
+    width: 300px;
+    border: solid 1px cornflowerblue;
+}
+.kleur {
+    display: flex;
+    grid-column: 1/5;
+
+}
+
+.geslacht {
+    display: flex;
+    grid-column: 1/5;
+}
+
+.kleuroptie {
+    display: flex;
+    grid-column: 2/5;
+}
+
+.datum {
+    grid-column:1/5;
+    display: flex;
+}
+
+.textarea {
+    grid-column:1/5;
+    display: flex;
+}
+
+.Annuleer{
+    grid-column: 4/5;
+    display: flex;
+}
+
+.Submit {
+    grid-column: 4/5;
+    display: flex;
+}
+
+label {
+    margin-left: 0px;
+}

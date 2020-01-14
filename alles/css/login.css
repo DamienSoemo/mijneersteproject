@@ -1,0 +1,17 @@
+* {
+    border: dotted 1px grey;
+}
+body {
+    margin: 0;
+    padding: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 20% 30% 10% 40%;
+}
+
+h1 {
+    grid-column: 5;
+}
